@@ -39,8 +39,8 @@ npm run eslint
 ## license
 [MIT License][mit-license]
 
-[coveralls-image]: https://coveralls.io/repos/github/dan-nl/eslint-config/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/dan-nl/eslint-config?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/dan-nl/eslint-config-dan-nl/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/dan-nl/eslint-config-dan-nl?branch=master
 [david-dm-dev-image]: https://david-dm.org/dan-nl/eslint-config-dan-nl/dev-status.svg
 [david-dm-dev-url]: https://david-dm.org/dan-nl/eslint-config-dan-nl?type=dev
 [eslint-shareable-url]: http://eslint.org/docs/developer-guide/shareable-configs.html
