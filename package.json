@@ -22,8 +22,7 @@
     "cover": "npm test -- --coverage-report=lcov --no-browser",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "eslint": "eslint .",
-    "test": "tap test/**/*.test.js --reporter spec",
-    "test:watch": "nodemon bin/tap test/**/*.test.js --reporter dot"
+    "test": "tap test/**/*.test.js --reporter spec"
   },
   "config": {
     "ghooks": {
@@ -33,7 +32,6 @@
   "devDependencies": {
     "eslint": "3.5.0",
     "ghooks": "1.3.2",
-    "nodemon": "1.10.2",
     "tap": "7.1.2"
   },
   "peerDependencies": {
