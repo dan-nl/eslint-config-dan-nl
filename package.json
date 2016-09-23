@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-dan-nl",
+  "version": "0.0.0",
+  "description": "an ESLint shareable config",
+  "main": "src",
+  "author": "dan entous",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/dan-nl/eslint-config/issues"
+  },
+  "homepage": "https://github.com/dan-nl/eslint-config#readme",
+  "scripts": {
+    "pre-commit": "echo 'pre-commit checks ...' && npm run eslint && npm test -- --cov",
+    "cover": "npm test -- --coverage-report=lcov --no-browser",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "eslint": "eslint .",
+    "test": "tap test/**/*.test.js --reporter spec",
+    "test:watch": "nodemon bin/tap test/**/*.test.js --reporter dot"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run pre-commit"
+    }
+  },
+  "devDependencies": {
+    "eslint": "3.5.0",
+    "ghooks": "1.3.2",
+    "nodemon": "1.10.2",
+    "tap": "7.1.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
+}
