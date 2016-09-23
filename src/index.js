@@ -219,7 +219,7 @@ module.exports = {
       'single'
     ],
     'radix': 'error',
-    'require-jsdoc': 'off',
+    'require-jsdoc': 'error',
     'rest-spread-spacing': 'error',
     'semi': [
       'error',
@@ -251,7 +251,13 @@ module.exports = {
       'error',
       'never'
     ],
-    'valid-jsdoc': 'error',
+    'valid-jsdoc': [
+      'error',
+      {
+        'requireParamDescription': false,
+        'requireReturnDescription': false
+      }
+    ],
     'vars-on-top': 'error',
     'wrap-iife': 'error',
     'wrap-regex': 'error',

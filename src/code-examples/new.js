@@ -2,6 +2,10 @@
 
 var Pavith;
 
+/**
+ * @param {string} name
+ * @constructor
+ */
 function Person( name ) {
   this.name = name;
 }

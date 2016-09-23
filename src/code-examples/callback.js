@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * @param {string} title
+ * @param {Function} callback
+ * @returns {void}
+ */
 function describe( title, callback ) {
   callback( title );
 }
