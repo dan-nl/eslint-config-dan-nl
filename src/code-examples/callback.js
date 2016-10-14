@@ -21,6 +21,9 @@ describe( 'title',
 
 describe(
   'title',
+  /**
+   * @returns {undefined}
+   */
   function () {
     // do something
   }
