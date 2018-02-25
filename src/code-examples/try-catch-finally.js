@@ -1,9 +1,9 @@
 'use strict';
 
 try {
-  JSON.parse( '' );
+  JSON.parse( '' )
 } catch ( err ) {
-  console.log( 'oops!', err );
+  console.log( 'oops!', err )
 } finally {
-  console.log( 'finally!' );
+  console.log( 'finally!' )
 }

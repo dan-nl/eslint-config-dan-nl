@@ -6,18 +6,18 @@
  * @returns {void}
  */
 function describe( title, callback ) {
-  callback( title );
+  callback( title )
 }
 
 describe( 'title', function () {
   // do something
-} );
+} )
 
 describe( 'title',
   function () {
     // do something
   }
-);
+)
 
 describe(
   'title',
@@ -27,4 +27,4 @@ describe(
   function () {
     // do something
   }
-);
+)

@@ -221,10 +221,7 @@ module.exports = {
     'radix': 'error',
     'require-jsdoc': 'error',
     'rest-spread-spacing': 'error',
-    'semi': [
-      'error',
-      'always'
-    ],
+    'semi': 'off',
     'semi-spacing': [
       'error',
       {
@@ -267,4 +264,4 @@ module.exports = {
       'never'
     ]
   }
-};
+}

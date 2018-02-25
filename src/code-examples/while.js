@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-var j;
+var j
 
 while ( j < 10 ) {
-  j += 1;
+  j += 1
 }
