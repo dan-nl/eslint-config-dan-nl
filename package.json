@@ -2,21 +2,21 @@
   "name": "eslint-config-dan-nl",
   "version": "0.1.2",
   "description": "an ESLint shareable config",
-  "main": "src",
   "author": "dan entous",
   "license": "MIT",
+  "main": "src",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dan-nl/eslint-config.git"
+    "url": "git+https://github.com/dan-nl/eslint-config-dan-nl"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "bugs": {
-    "url": "https://github.com/dan-nl/eslint-config/issues"
+    "url": "https://github.com/dan-nl/eslint-config-dan-nl/issues"
   },
-  "homepage": "https://github.com/dan-nl/eslint-config#readme",
+  "homepage": "https://github.com/dan-nl/eslint-config-dan-nl#readme",
   "scripts": {
     "cover:browser": "npm test -- --coverage-report=lcov",
     "cover:cli": "npm test -- --cov",
