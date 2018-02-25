@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/dan-nl/eslint-config#readme",
   "scripts": {
-    "cover": "npm test -- --coverage-report=lcov --no-browser",
     "cover:browser": "npm test -- --coverage-report=lcov",
     "cover:cli": "npm test -- --cov",
     "cover:travis": "npm test -- --coverage-report=lcov --no-browser",
