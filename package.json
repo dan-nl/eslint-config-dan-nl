@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dan-nl",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "an ESLint shareable config",
   "author": "dan entous",
   "license": "MIT",
