@@ -18,13 +18,8 @@
   },
   "homepage": "https://github.com/dan-nl/eslint-config-dan-nl#readme",
   "scripts": {
-    "cover:browser": "npm test -- --coverage-report=lcov",
-    "cover:cli": "npm test -- --cov",
-    "cover:travis": "npm test -- --coverage-report=lcov --no-browser",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "eslint": "eslint .",
-    "pre-commit": "echo 'pre-commit checks ...' && npm run eslint && npm test -- --cov",
-    "test": "tap test/**/*.test.js --reporter spec"
+    "pre-commit": "echo 'pre-commit checks ...' && npm run eslint"
   },
   "config": {
     "ghooks": {
@@ -33,7 +28,6 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "ghooks": "^2.0.4",
-    "tap": "^14.2.2"
+    "ghooks": "^2.0.4"
   }
 }

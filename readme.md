@@ -1,5 +1,5 @@
 # eslint-config-dan-nl
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dev Dependency Status][david-dm-dev-image]][david-dm-dev-url]
+[![Build Status][travis-image]][travis-url]
 
 an [ESLint shareable config][eslint-shareable-url]
 
