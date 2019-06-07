@@ -1,5 +1,5 @@
 # eslint-config-dan-nl
-[![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 an [ESLint shareable config][eslint-shareable-url]
 
@@ -41,9 +41,9 @@ npm run eslint
 
 [coveralls-image]: https://coveralls.io/repos/github/dan-nl/eslint-config-dan-nl/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/dan-nl/eslint-config-dan-nl?branch=master
-[david-dm-dev-image]: https://david-dm.org/dan-nl/eslint-config-dan-nl/dev-status.svg
-[david-dm-dev-url]: https://david-dm.org/dan-nl/eslint-config-dan-nl?type=dev
 [eslint-shareable-url]: http://eslint.org/docs/developer-guide/shareable-configs.html
 [mit-license]: https://raw.githubusercontent.com/dan-nl/eslint-config-dan-nl-listening/master/license.txt
+[npm-image]: https://img.shields.io/npm/v/eslint-config-dan-nl.svg
+[npm-url]: https://www.npmjs.com/package/eslint-config-dan-nl
 [travis-image]: https://travis-ci.org/dan-nl/eslint-config-dan-nl.svg?branch=master
 [travis-url]: https://travis-ci.org/dan-nl/eslint-config-dan-nl
